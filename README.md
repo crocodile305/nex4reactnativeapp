@@ -1,3 +1,3 @@
-# cinemarex-codacanyon-android
-This android app for CinemaRex Codecanyon version 
+# reactnative-movies-app
+React Native Mobile APP 
 Released date 01/02/2019
