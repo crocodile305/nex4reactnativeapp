@@ -1,0 +1,14 @@
+com/cinemarexapp/BuildConfig.java
+ com.cinemarexapp.BuildConfig
+com/cinemarexapp/ReactNativeFlipper.java
+ com.cinemarexapp.ReactNativeFlipper
+ com.cinemarexapp.ReactNativeFlipper$1
+ com.cinemarexapp.ReactNativeFlipper$2
+ com.cinemarexapp.ReactNativeFlipper$2$1
+com/cinemarexapp/MainApplication.java
+ com.cinemarexapp.MainApplication
+ com.cinemarexapp.MainApplication$1
+com/cinemarexapp/MainActivity.java
+ com.cinemarexapp.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

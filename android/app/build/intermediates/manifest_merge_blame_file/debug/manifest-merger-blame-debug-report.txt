@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cinemarexapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:5:5-78
+11-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\croco\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.99.0] C:\Users\croco\.gradle\caches\transforms-3\2f5725507f1929c6ddf8255f0bef77bd\transformed\jetified-flipper-0.99.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\croco\.gradle\caches\transforms-3\b8b05f681ec52def6cf8ab733f9fa722\transformed\jetified-exoplayer-core-2.9.3\AndroidManifest.xml:24:5-79
+14-->[com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\croco\.gradle\caches\transforms-3\b8b05f681ec52def6cf8ab733f9fa722\transformed\jetified-exoplayer-core-2.9.3\AndroidManifest.xml:24:22-76
+15
+16    <application
+16-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:7:5-25:19
+17        android:name="com.cinemarexapp.MainApplication"
+17-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:8:9-40
+18        android:allowBackup="false"
+18-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:9:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\croco\.gradle\caches\transforms-3\5646db46e2cfb43e7b3d42f3054c498c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/icon"
+21-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:10:9-36
+22        android:label="@string/app_name"
+22-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:11:9-41
+23        android:testOnly="false"
+23-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:12:9-33
+24        android:theme="@style/AppTheme"
+24-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:13:9-40
+25        android:usesCleartextTraffic="true" >
+25-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\debug\AndroidManifest.xml:8:9-44
+26        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+26-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:24:9-86
+26-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:24:19-83
+27        <activity
+27-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:14:9-23:20
+28            android:name="com.cinemarexapp.MainActivity"
+28-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:15:13-41
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+29-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:16:13-83
+30            android:label="@string/app_name"
+30-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:17:13-45
+31            android:windowSoftInputMode="adjustResize" >
+31-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:18:13-55
+32            <intent-filter>
+32-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:19:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:20:17-69
+33-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:21:17-77
+35-->E:\Work\Maurice Joway\Nex4+apps\Nex4apps\android\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:29:9-32:66
+39            android:name="com.facebook.FacebookActivity"
+39-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:30:13-57
+40            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+40-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:31:13-96
+41            android:theme="@style/com_facebook_activity_theme" />
+41-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:32:13-63
+42        <activity android:name="com.facebook.CustomTabMainActivity" />
+42-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:33:9-71
+42-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:33:19-68
+43        <!--
+44         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+45         with the application context. This config is merged in with the host app's manifest,
+46         but there can only be one provider with the same authority activated at any given
+47         point; so if the end user has two or more different apps that use Facebook SDK, only the
+48         first one will be able to use the provider. To work around this problem, we use the
+49         following placeholder in the authority to identify each host application as if it was
+50         a completely different provider.
+51        -->
+52        <provider
+52-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:44:9-47:40
+53            android:name="com.facebook.internal.FacebookInitProvider"
+53-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:45:13-70
+54            android:authorities="com.cinemarexapp.FacebookInitProvider"
+54-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:46:13-72
+55            android:exported="false" />
+55-->[com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\croco\.gradle\caches\transforms-3\6a6e422d63881f1fdb7ecb39a057ab6a\transformed\jetified-facebook-android-sdk-4.22.1\AndroidManifest.xml:47:13-37
+56    </application>
+57
+58</manifest>
